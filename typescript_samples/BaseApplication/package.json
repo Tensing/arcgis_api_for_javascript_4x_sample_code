@@ -1,0 +1,24 @@
+{
+  "name": "base",
+  "version": "0.0.1",
+  "description": "ArcGIS JavaScript Base Application",
+  "scripts": {
+    "dev": "tsc -w",
+    "lint": "tslint './app/*.ts'"
+  },
+  "keywords": [
+    "tensing",
+    "arcgis"
+  ],
+  "author": "Egge-Jan Pollé <ejpolle@tensing.com>",
+  "license": "MIT",
+  "homepage": "https://www.tensing.com",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/arcgis-js-api": "^4.12.0",
+    "dojo-typings": "^1.11.9",
+    "tslint": "^5.16.0",
+    "typescript": "^3.5.2"
+  },
+  "main": "index.js"
+}
